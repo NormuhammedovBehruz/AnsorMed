@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
@@ -68,7 +68,6 @@ body {
     text-decoration: none;
     color: #222222;
     text-transform: uppercase;
-    /* font-weight: 96; */
     line-height: 21px;
     font-size: 14px;
     letter-spacing: 2px;
@@ -82,7 +81,6 @@ body {
     opacity: 0.6;
 }
 
-
 .sitenavv-link {
     text-decoration: none;
     color: #fff;
@@ -94,7 +92,7 @@ body {
 }
 
 .sitenavv-link:hover {
-    color: #DE2E54;
+    color: #de2e54;
 }
 
 .sitenavv-link:active {
@@ -102,15 +100,14 @@ body {
     color: #808080;
 }
 
-
 /* Main button */
 
 .main-button {
     text-decoration: none;
     padding: 12px 24px;
     border-radius: 8px;
-    border: 2px solid #DE2E54;
-    background-color: #DE2E54;
+    border: 2px solid #de2e54;
+    background-color: #de2e54;
     color: #fff;
     font-weight: 141;
     letter-spacing: 2px;
@@ -118,14 +115,14 @@ body {
 
 .main-button:hover {
     background-color: #fff;
-    color: #DE2E54;
+    color: #de2e54;
 }
 
 .main-buttonn {
     text-decoration: none;
     padding: 12px 24px;
     border-radius: 4px;
-    background-color: #DE2E54;
+    background-color: #de2e54;
     color: #fff;
     font-weight: 141;
     letter-spacing: 2px;
@@ -134,7 +131,6 @@ body {
 .main-buttonn:active {
     opacity: 0.6;
 }
-
 
 .button {
     margin-top: 60px;
@@ -156,7 +152,7 @@ body {
 
 .mainn-button:hover {
     background-color: #fff;
-    color: #DE2E54;
+    color: #de2e54;
 }
 
 .mainn-button:active {
@@ -170,7 +166,7 @@ body {
 }
 
 .hero {
-    background-color: #0EB4C1;
+    background-color: #0eb4c1;
     color: #fff;
     margin-bottom: 120px;
 }
@@ -187,16 +183,24 @@ body {
 }
 
 .hero-header {
+    width: 500px;
+    height: 86px;
     margin-bottom: 16px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 700;
+    line-height: 43px;
+    font-size: 36px;
 }
 
 .hero-text {
     margin-bottom: 36px;
     width: 440px;
     height: 108px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 18px;
 }
-
 
 /* Services bg */
 
@@ -206,7 +210,7 @@ body {
 
 .xizmatlar {
     text-align: center;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
     font-size: 36px;
 }
 
@@ -218,21 +222,27 @@ body {
     margin-top: 56px;
 }
 
-.section-img {
-    background: url(image.png);
-    box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
-    border-radius: 24px;
+.img {
+    margin-left: 30px;
 }
 
 .item {
     width: 600px;
     height: 140px;
-    font-family: 'open sans', sans-serif;
+    font-family: "open sans", sans-serif;
     font-size: 16px;
 }
 
- /* Footer */
+.h1 {
+    margin-left: 30px;
+}
 
- .footer {
-     background-color: #222222;
+.img-text {
+    margin-left: 30px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #222222;
 }
