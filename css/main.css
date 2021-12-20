@@ -159,6 +159,10 @@ body {
     opacity: 0.6;
 }
 
+.hero-img {
+    align-self: flex-end;
+}
+
 /* Main content */
 
 .main-content {
@@ -228,7 +232,6 @@ body {
 
 .item {
     width: 600px;
-    height: 140px;
     font-family: "open sans", sans-serif;
     font-size: 16px;
 }
