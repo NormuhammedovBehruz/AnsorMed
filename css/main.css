@@ -132,6 +132,8 @@ body {
     color: #fff;
     font-weight: 141;
     letter-spacing: 2px;
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
     transition: color 0.5s;
 }
 
@@ -154,6 +156,8 @@ body {
     color: #fff;
     font-weight: 141;
     letter-spacing: 2px;
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
     transition: color 0.5s;
 }
 
@@ -190,6 +194,8 @@ body {
     color: #fff;
     padding: 12px 24px;
     letter-spacing: 2px;
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
     transition: color 0.5s;
 }
 
